@@ -4,6 +4,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 import ReactDOM from "react-dom/client";
-import Home from "./Home";
+import UserManagement from "./modules/usermanagement/UserManagement.jsx";
 
-ReactDOM.createRoot(document.getElementById("app")).render(<Home />);
+ReactDOM.createRoot(document.getElementById("app")).render(<UserManagement />);
